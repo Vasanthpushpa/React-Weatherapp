@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.weather-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #FFF5E0;
+    gap: 10px;
+    font-size: 2em;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    
+}
+p{
+    font-size: 1.5rem;
+}
+input{
+    width: 300px;
+    height: 5vh;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.weather-card{
+    background-color: #FF008E;
+    border-radius: 20px;
+    padding: 10px;
+    color: #0C1E7F;
+}
