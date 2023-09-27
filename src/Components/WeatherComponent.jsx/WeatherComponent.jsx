@@ -54,7 +54,7 @@ const WeatherComponent = () => {
         <div>
         <p>Temperature : {weatherdata.current.temp_c}&deg;C</p>
         <img src={weatherdata.current.condition.icon}/>
-        <p>Condition : {weatherdata.current.condition.text}</p>
+        <p>Current Weather : {weatherdata.current.condition.text}</p>
         </div>
         
 
