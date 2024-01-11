@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useQuery } from 'react-query';
 import "./WeatherComponent.css"
-
 const WeatherComponent = () => {
   const apiKey = '3108bc5c8c524b8096543905232509'; 
   const [cityName,setCityName] = useState('')
