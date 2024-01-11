@@ -33,7 +33,7 @@ const WeatherComponent = () => {
   return (
     <React.Fragment>
       <div className='weather-app'>
-        <h1>Get Weather</h1>
+        <h2>Get Weather</h2>
         <form>
           <input
           type='text'
