@@ -21,7 +21,7 @@ const WeatherComponent = () => {
   useEffect(()=>{
     navigator.geolocation.getCurrentPosition(async(position)=>{
       const {latitude , longitude} = position.coords;
-      const response = await axios.get(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${latitude},${longitude}`)
+      const response = await axios.get(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${latitude},${longitude}`)
       setWeatherData(response.data)
       
     })
